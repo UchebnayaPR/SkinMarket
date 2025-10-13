@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkinMarket — Торговая площадка скинов</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/logo.png" alt="logo" height="32" />
+        SkinMarket
+      </a>
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Поиск..." />
+        <button class="btn btn-outline-success">Найти</button>
+      </form>
+      <a href="profile.html" class="btn btn-outline-light ms-3">Профиль</a>
+      <a href="cart.html" class="btn btn-success ms-2">Корзина</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-dark text-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Торгуй скинами выгодно</h1>
+      <p class="lead">Покупай, продавай и обменяй скины для CS2, Dota 2, Rust и других игр!</p>
+      <a href="market.html" class="btn btn-success btn-lg mt-3">Перейти в каталог</a>
+    </div>
+  </section>
+
+  <!-- Popular Games -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Популярные игры</h2>
+      <div class="row text-center">
+        <div class="col-md-4"><img src="img/placeholder.jpg" class="img-fluid rounded mb-2"><p>CS2</p></div>
+        <div class="col-md-4"><img src="img/placeholder.jpg" class="img-fluid rounded mb-2"><p>Dota 2</p></div>
+        <div class="col-md-4"><img src="img/placeholder.jpg" class="img-fluid rounded mb-2"><p>Rust</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <p class="mb-1">&copy; 2025 SkinMarket</p>
+    <a href="#" class="text-secondary me-3">Соглашение</a>
+    <a href="#" class="text-secondary">Политика</a>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
